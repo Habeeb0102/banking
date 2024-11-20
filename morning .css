@@ -1,0 +1,56 @@
+body{color: orange;
+background-color: rgb(126, 83, 83);
+margin: 100px;
+}
+h1{color: blue;
+background-color: yellow;
+font-size: xx-large;
+font-style: italic;
+text-align: center;}
+
+h2{color: black;
+background-color: aqua;
+text-align: end;}
+
+{background: yellow;
+color:;
+border-color: black;
+border: 2px solid blue;}
+#column{color: red;
+ba;}
+p:hover{color:green ;
+}
+h1::first-letter{color: brown;}
+.paro{color: yellow;
+height: 420px;
+}
+.leg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: rgb(114, 114, 168);
+    width: 200px;
+}
+.shoe{
+    background-color: yellowgreen;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 10px;
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid green;
+    background-color: brown;
+    color: white;
+}
+.children{
+    display: flex;
+    flex-direction: row;
+}
